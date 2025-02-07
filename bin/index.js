@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 (async function () {
   const [node, script, ...parameters] = process.argv;
