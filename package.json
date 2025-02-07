@@ -2,7 +2,9 @@
   "name": "test-scripts",
   "private": true,
   "version": "1.0.0",
-  "main": "bin/index.js",
-  "bin": "bin/index.js",
+  "main": "index.js",
+  "bin": {
+    "test-scripts": "index.js"
+  },
   "scripts": {}
 }
